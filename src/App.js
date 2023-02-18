@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Basic, { Basic1, Basic2 } from "./Components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Basic/>
+    <Basic1/>
+    <Basic2/>
+    {/* <h1>Welcome to react JavaScript</h1>
+    <ol>Reactjs
+      <li>NPM</li>
+      <li>NPX</li>
+      <li>JSX</li>
+      <li>XML</li>
+    </ol> */}
+    </>
   );
 }
 
